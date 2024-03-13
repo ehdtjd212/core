@@ -52,12 +52,6 @@ jobs:
 
 env:
   S3_BUCKET_NAME: devops-spring-01
-
-jobs:
-  build:
-
-    ...
-    
     # 프로젝트 압축
     - name: Make zip file
       run: zip -r ./practice-deploy.zip .

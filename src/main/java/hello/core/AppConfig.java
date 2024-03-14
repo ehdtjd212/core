@@ -35,8 +35,8 @@ public class AppConfig {
     public DiscountPolicy discountPolicy() {
 //        return new FixDiscountPolicy();
         System.out.println("true = " + true);
-        System.out.println("두번째커밋");
-        System.out.println("세번째커밋");
+        System.out.println("새로운 브랜치 생성 hotfix");
+
         return new RateDiscountPolicy();
 
     }

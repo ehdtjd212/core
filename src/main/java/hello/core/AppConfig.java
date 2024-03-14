@@ -36,6 +36,7 @@ public class AppConfig {
 //        return new FixDiscountPolicy();
         System.out.println("true = " + true);
         System.out.println("두번째커밋");
+        System.out.println("세번째커밋");
         return new RateDiscountPolicy();
 
     }

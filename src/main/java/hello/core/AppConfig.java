@@ -36,6 +36,7 @@ public class AppConfig {
 //        return new FixDiscountPolicy();
         System.out.println("true = " + true);
         System.out.println("새로운 브랜치 생성 hotfix");
+        System.out.println("충돌발생 해결!!");
 
         return new RateDiscountPolicy();
 
